@@ -1,0 +1,32 @@
+body{
+    background: rgb(0, 95, 0);
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    margin-left: -130px;
+    position: relative;
+    left: 130px;
+}
+
+#jugador, #computadora{
+    min-height: 370px;
+}
+
+#mensajeGanador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px color rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+}
